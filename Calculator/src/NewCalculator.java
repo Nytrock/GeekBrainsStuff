@@ -224,6 +224,7 @@ public class NewCalculator {
         delete_all.addActionListener(e -> {
             if (Error)
                 FixError();
+            firstNumber = "";
             secondNumber = "";
             symbol = "";
             OnSecondNumber = false;
