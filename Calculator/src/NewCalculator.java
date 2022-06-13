@@ -233,7 +233,7 @@ public class NewCalculator {
 
         delete_symbol.addActionListener(e -> {
             if (Error)
-                MakeError();
+                FixError();
             if (!ReplaceNumber) {
                 if (OnSecondNumber) {
                     if (!Objects.equals(secondNumber, "")) {
